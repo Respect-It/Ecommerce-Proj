@@ -1,0 +1,64 @@
+.home-page-wrapper {
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+  }
+  
+  /* Hero Banner */
+  .home-hero-banner {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-hero-banner h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-hero-banner p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-hero-banner .btn-primary {
+    background-color: #fff;
+    color: #111;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .home-hero-banner .btn-primary:hover {
+    background-color: #0f62fe;
+    color: #fff;
+  }
+  
+  /* Product Grid */
+  .product-grid-section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  /* Reuse global card styles */
+  
