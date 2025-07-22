@@ -1,6 +1,6 @@
 import React from "react";
-import banner from "../assets/banner.webm";
-import "../styles/Banner.css";
+import banner from "..//assets/banner.webm";
+import "..//styles/Banner.css";
 
 const Banner = () => {
   return (

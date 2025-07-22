@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { products } from "../data";
+import { products } from "..//data";
 import { Rating } from "react-simple-star-rating";
-import { CartContext } from "../App.jsx";
-import "../styles/DetailPage.css";
+import { CartContext } from "..//App.jsx";
+import "..//styles/DetailPage.css";
 
 function DetailPage() {
   const { id } = useParams();

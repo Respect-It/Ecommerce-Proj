@@ -1,9 +1,9 @@
 import React from "react";
-import { products } from "../data";
-import Cards from "../components/Cards";
-import Chatbot from "../components/Chatbot";
-import "../styles/Home.css";
-import "../styles/Chatbot.css";
+import { products } from "..//data";
+import Cards from "..//components/Cards";
+import Chatbot from "..//components/Chatbot";
+import "..//styles/Home.css";
+import "..//styles/Chatbot.css";
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { FiSend } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { FaRobot } from "react-icons/fa";
-import "../styles/Chatbot.css";
+import "..//styles/Chatbot.css";
 
 const Chatbot = () => {
   const inputRef = useRef();

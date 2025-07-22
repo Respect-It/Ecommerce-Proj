@@ -1,9 +1,9 @@
 import React from 'react';
-import { products } from '../data';
-import Cards from '../components/Cards';
+import { products } from '..//data';
+import Cards from '..//components/Cards';
 import { useParams } from 'react-router-dom';
 import { FaBoxOpen } from 'react-icons/fa';
-import '../styles/Products.css';
+import '..//styles/Products.css';
 
 function Products() {
   const { category } = useParams();

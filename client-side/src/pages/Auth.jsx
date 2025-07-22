@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Auth.css";
+import "..//styles/Auth.css";
 import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
 
 function Auth() {

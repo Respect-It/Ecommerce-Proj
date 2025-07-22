@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { CartContext } from "../App.jsx";
+import { CartContext } from "..//App.jsx";
 import { FaSearch, FaUser, FaHeart, FaShoppingCart } from "react-icons/fa";
-import "../styles/Navbar.css";
+import "..//styles/Navbar.css";
 
 function Navbar() {
   const { cart } = useContext(CartContext);

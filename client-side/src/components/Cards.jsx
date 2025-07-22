@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { Rating } from "react-simple-star-rating";
-import { CartContext } from "../App.jsx";
+import { CartContext } from "..//App.jsx";
 import { FaHeart, FaSearch, FaShoppingCart } from "react-icons/fa";
-import "../styles/Cards.css";
+import "..//styles/Cards.css";
 
 export default function Cards({ product }) {
   const { cart, setCart } = useContext(CartContext);

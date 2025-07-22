@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/NotFound.css";
+import "..//styles/NotFound.css";
 import { FaGhost } from "react-icons/fa";
 
 function NotFound() {
