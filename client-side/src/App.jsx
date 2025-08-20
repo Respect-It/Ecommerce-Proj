@@ -4,11 +4,11 @@ import { createContext, useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Banner from "./components/Banner";
-
+import Hero from "./components/Hero";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
+import Topbar from "./pages/Topbar";
 import Auth from "./pages/Auth";
 import Products from "./pages/Products";
 import DetailPage from "./pages/DetailPage";
@@ -41,6 +41,7 @@ export default function App() {
     <CartContext.Provider value={{ cart, setCart }}>
       <Router>
         <div className="app-container">
+          <Topbar />
           <Navbar />
           <main className="main-content">
             <Routes>
@@ -48,7 +49,7 @@ export default function App() {
                 path="/"
                 element={
                   <>
-                    <Banner />
+                    <Hero />
                     <Home />
                   </>
                 }
